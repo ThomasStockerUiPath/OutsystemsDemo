@@ -18,6 +18,5 @@ steps:
   inputs:
     testTarget: 'TestProject'
     orchestratorConnection: 'staging.uipath.com'
-    testProjectPath: 'OutsystemsDemo'
     folderName: 'Thomas Stocker Modern Folder'
     testReportDestination: '$(Build.ArtifactStagingDirectory)\output'
