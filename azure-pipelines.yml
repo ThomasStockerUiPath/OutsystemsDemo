@@ -10,6 +10,10 @@ steps:
 # If this task is not used, the CLI will be downloaded from an external nuget feed
 - task: UiPathInstallPlatform@2
 
+
+- task: CmdLine@2
+  inputs:
+    script: 'dir'
 - task: UiPathTest@2
   inputs:
     testTarget: 'TestProject'
